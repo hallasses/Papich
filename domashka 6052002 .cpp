@@ -58,7 +58,6 @@ int main() {
 	p4.show();
 	Point3Dh <long> p5(5, 2, 3, 2);
 	p5.show();
-	std::cout << "Работа с вектором" << std::endl;
 	std::vector<Base*> v;
 	v.push_back((Base*)&p1);
 	v.push_back((Base*)&p2);
